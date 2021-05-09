@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preload" href="public/css/normalize.css" as="style">
+    <link rel="stylesheet" href="public/css/normalize.css"> <!--Debe caragr primero siempre-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="public/css/estilos.css" as="style">
+    <link rel="stylesheet" href="public/css/estilos.css">
+
+    <link rel="shortcut icon" type="image/jpg" href="public/img/Erick.jpeg"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-188157507-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-188157507-5');
+</script>
+
+
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="titulo">Erick Carranza Meza <span>Desarrollador</span></h1>  <!--em: Es el tamaño del padre;    rem: Toma el del body o navegador  -->  
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegador-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="sobremi.html">Sobre mí</a>
+            <a href="portafolios.html">Portafolios</a>
+            <a href="index.html#seccionContacto">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenedor-hero">
+            <h2>Desarrollador Web</h2>
+            
+            <p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffa500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+
+            Cahuatitán, Coyuca de Benitez, Guerrero</p>
+
+        
+            <a class="boton" href="index.html#seccionContacto">Contactamé</a>
+
+        </div>
+    </section> <!--Termina el hero-->
+
+
+    <main class="contenedor sombra" id="seccionPortafolios">
+        <section class="contenedor--proyecto">
+        <h2 class="centrar-texto rem-4">Portafolios</h2>
+   
+        <div class="proyecto">
+                <div class="proyecto__informacion">        
+                    <h4 class="no-margin rem-3">Proyecto de práctica con el modelo MVC</h4>
+
+                    <div class="proyecto__imagen">
+                        <img src="public/img/AutismoCM.jpg" alt="Imagen proyecto">
+                    </div>
+
+                    <p class="proyecto__label">Fecha de elaboración:
+                        <span class="curso__info">Septiembre - Diciembre 2020</span>
+                    </p>
+                    <p class="proyecto__descripcion">
+                         Proyecto realizado como práctica de aprendizaje implementando el modelo MVC 
+                         con PHP, HTML, CSS y JavaScript, contiene el CRUD con diseño de interfaz sencillo,
+                         manejando sesiones, validaciones JavaScript y HTML en el formulario del 
+                         apartado "Apoyos", uso del de Drag and Drop JavaScript en sección "Juegos", se le
+                         seguira agregando a este trabajo
+                         <br>
+                         <br>
+                         También hay un CRUD completo sin diseño, igualmente con el modelo MVC, solo funcionalidad:
+                         <br>
+                         <a href="http://erickcm.rf.gd/crud/" target="_blank"> <strong>IR AL CRUD</strong></a>
+                    </p>
+                    <p>
+                        <br>
+                        <a class="boton boton__primario" href="http://erickcm.rf.gd/" target="_blank">Ver proyecto</a>
+                    </p>
+                </div> <!--Proyecto informacion-->
+        </div> <!--Proyecto-->
+
+        <div class="proyecto">
+
+            <div class="proyecto__informacion">        
+                <h4 class="no-margin rem-3">Muckups o WireFrame de un Sistema Web Administrador eCommerce</h4>
+
+                <div class="proyecto__imagen">
+                    <img src="public/img/MuckupsProyecto.jpg" alt="Imagen proyecto">
+                </div>
+
+                <p class="proyecto__label">Fecha de elaboración:
+                    <span class="curso__info">Diciembre - Enero 2021</span>
+                </p>
+                <p class="proyecto__descripcion">
+                     Proyecto escolar realizado en Adobe XD
+                </p>
+                <p>
+                    <a class="boton boton__primario" href="https://xd.adobe.com/view/66df9b0d-ae7c-4bec-8d78-f9ade44ac1a5-338c/" target="_blank">Ver proyecto</a>
+                </p>
+            </div> <!--Proyecto informacion-->
+        </div> <!--Proyecto-->
+
+        <div class="proyecto">
+
+            <div class="proyecto__informacion">        
+                <h4 class="no-margin rem-3">StoreCM</h4>
+
+                <div class="proyecto__imagen">
+                    <img src="public/img/StoreCM.jpg" alt="Imagen proyecto">
+                </div>
+
+                <p class="proyecto__label">Fecha de elaboración:
+                    <span class="curso__info">Enero 2021</span>
+                </p>
+                <p class="proyecto__descripcion">
+                     Práctica propia con HTML y CSS, diseño responsive utilizando Grid y Flexbox
+                </p>
+                <p>
+                    <a class="boton boton__primario" href="https://tiendaerickcm.netlify.app" target="_blank">Ver proyecto</a>
+                </p>
+            </div> <!--Proyecto informacion-->
+        </div> <!--Proyecto-->        
+    
+        <div class="proyecto">
+
+            <div class="proyecto__informacion">        
+                <h4 class="no-margin rem-3">Blog de Café</h4>
+
+                <div class="proyecto__imagen">
+                    <img src="public/img/BlogCafeCM.jpg" alt="Imagen proyecto">
+                </div>
+
+                <p class="proyecto__label">Fecha de elaboración:
+                    <span class="curso__info">Enero 2021</span>
+                </p>
+                <p class="proyecto__descripcion">
+                    Práctica personal realizado con HTML y CSS responsive con Grid y Flexbox
+                </p>
+                <p>
+                    <a class="boton boton__primario" href="https://blogcafeerickcm.netlify.app" target="_blank">Ver proyecto</a>
+                </p>
+            </div> <!--Proyecto informacion-->
+        </div> <!--Proyecto-->        
+
+        <div class="proyecto">
+
+            <div class="proyecto__informacion">        
+                <h4 class="no-margin rem-3">Proyecto Angular</h4>
+
+                <div class="proyecto__imagen">
+                    <img src="public/img/AngularCM.jpg" alt="Imagen proyecto">
+                </div>
+
+                <p class="proyecto__label">Fecha de elaboración:
+                    <span class="curso__info">Febrero 2021 - Actual</span>
+                </p>
+                <p class="proyecto__descripcion">
+                    Proyecto en elaboración en mi estadia de Residencias Profesionales, se utiliza Firebase
+                    como Backend, manejando peticiones HTTP con API REST y API JSON de Firebase, se
+                    trabaja con Angular (NodeJS, CLI, npmjs), falta por agregarle más características,
+                    funcionalidades y mejorar el diseño.
+                </p>
+                <p>
+                    <a class="boton boton__primario" href="https://blogcafeerickcm.netlify.app" target="_blank">Ver proyecto</a>
+                </p>
+            </div> <!--Proyecto informacion-->
+        </div> <!--Proyecto-->                
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Derechos reservados Erick Carranza Meza</p>
+    </footer>
+
+
+</body>
+</html>
