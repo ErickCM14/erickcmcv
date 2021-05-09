@@ -13,14 +13,11 @@ $message = $nombre . " desea contactar contigo \r\n" . "Su e-mail es: " . $from 
 . "Su número telefónico es: " . $telefono . " \r\n" ."Mensaje: ". $_POST['mensaje'] . " \r\n \r\n" 
 . "Enviado el " . date('d/m/Y  H:i:s');
 
-$to = "erickparacompartir@gmail.com";
-/*$para = "erickparacompartirgmail.com";*/
+$to = "erick.info.oficial@gmail.com";
 $subject = "Contacto CV";
 
 /*mail($para, $asunto, utf8_decode($mensaje), $header);*/
-//mail("erickcarranzameza@gmail.com", "Probando", "El mensaje" );
 mail($to,$subject,utf8_decode($message), $headers);
-//echo "Mensaje enviaso";
 
 require('index.html');
 //localhost
